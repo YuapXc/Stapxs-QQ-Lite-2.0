@@ -78,7 +78,7 @@ export default defineComponent({
 
 错误示例：
 我觉得 AI 课还挺有意思的    ← 错误，不能改变玩家
-无聊可以找我陪你玩游戏啊    ← 错误，不能回复自己`
+无聊可以找我陪你玩游戏啊    ← 错误，不能回复自己 `
             // 只取最多 50 条聊天记录
             const chatData = toRaw(runtimeData.messageList).filter(item => item.raw_message).slice(-50)
             const chatStr = chatData.map(item => {
